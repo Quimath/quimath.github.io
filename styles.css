@@ -1,16 +1,51 @@
 body {
-  background-color: rgb(23, 97, 43);
+  background-color: rgb(28, 84, 41);
 }
+
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgba(0, 0, 0, 0.956);
+}
+
 
 h1 {
   color: white;
   text-align: center;
 }
-h1 {
-  color:white;
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #a24b4b;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  color: white;
+  text-align: center;
 }
 p {
   color: white;
   font-family: verdana;
-  font-size: 40px;
+  font-size: 12px;
+  text-align: center;
+} 
+
+.resize {
+  width: 500px;
+  height: auto;
 }
