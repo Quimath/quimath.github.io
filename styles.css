@@ -2,16 +2,6 @@ body {
   background-color: rgb(28, 84, 41);
 }
 
-h1 {
-  color: white;
-  text-align: center;
-}
-
-/* The navbar container */
-.topnav {
-  overflow: hidden;
-  background-color: #a24b4b;
-}
 
 /* Navbar links */
 .topnav a {
@@ -29,6 +19,23 @@ h1 {
   color: rgba(0, 0, 0, 0.956);
 }
 
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #a24b4b;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
 p {
   color: white;
   font-family: verdana;
