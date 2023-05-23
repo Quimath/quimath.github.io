@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quinn McMath | Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/homelayout.css">
+<link rel="stylesheet" href="styles/montserrat.css">
+<script src="https://kit.fontawesome.com/33dcf42bc3.js" crossorigin="anonymous"></script>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/small-logo.png" style="width:100%;" class="w3-padding-large">
+  <a href="./index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-music w3-xxlarge"></i>
+    <p>MUSIC</p>
+  </a>
+  <a href="./about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a class="w3-bar-item w3-padding-large w3-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="./index.html" class="w3-bar-item w3-button" style="width:33% !important">MUSIC</a>
+    <a href="./about.html" class="w3-bar-item w3-button" style="width:33% !important">ABOUT</a>
+    <a class="w3-bar-item w3-button" style="width:33% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> <img src="images/big-logo.png" style="width: 80%;" > </h1>
+    <p><br>Film and Media Composer | Orchestrator | Copyist</p>
+   <!-- <img src="images/headshot.png" alt="boy" class="w3-image" width="992" height="1108"> -->
+  </header>
+
+  <!-- Contact Section -->
+  <div class="w3-content w3-text-grey" id="contact">
+    <div class="w3-hide-small">
+      <h2 class="w3-text-light-grey">Contact Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+    </div>
+    <div class="w3-hide-medium w3-hide-large" style="text-align: center;">
+      <h2 class="w3-text-light-grey">Contact Me</h2>
+      <hr style="width:100%">
+    </div>
+
+
+    <div class="w3-hide-small w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Michigan, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 (989)-600-4245 </p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: quinnmcmathcomposer@gmail.com</p>
+    </div>
+
+    <div class="w3-hide-large w3-hide-medium w3-section w3-text-white" style="font-size: 12px;">
+      <p class="w3-padding-large"><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Michigan, US</p>
+      <p class="w3-padding-large"><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> +1 (989)-600-4245 </p>
+      <p class="w3-padding-large"> <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> quinnmcmathcomposer@gmail.com</p>
+    </div>
+    
+    <br>
+    <br>
+    <div class="w3-hide-small" style="font-size: large;">
+      <p class=" w3-text-white">Let's work together. Send me a message:</p>
+      <hr style="width:400px" class="w3-opacity">
+    </div>
+
+    <div class="w3-hide-large w3-hide-medium">
+      <p style="text-align: center;" class="w3-text-white">Let's work together. Send me a message:</p>
+      <hr style="width:100%" class="w3-opacity">
+    </div>
+
+    <form class="w3-hide-small w3-text-white" style="border: none;" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xgebbary" method="post">
+      <fieldset style="border: none;" id="fs-frm-inputs">
+        <div class="w3-padding-small">
+          <label for="full-name">Full Name</label>
+        </div>
+        <div class="w3-padding-small">
+          <input style="width: 50%" type="text" name="name" id="full-name" placeholder="    First and Last" required="">
+        </div>
+        <br>
+
+        <div class="w3-padding-small">
+          <label for="email-address">Email Address</label>
+        </div>
+        <div class="w3-padding-small">
+          <input style="width: 50%" type="email" name="_replyto" id="email-address" placeholder="    email@domain.tld" required="">
+        </div>
+        <br>
+
+        <div class="w3-padding-small">
+          <label for="message">Message</label>
+        </div>
+        <div class="w3-padding-small">
+          <textarea style="width: 50%" rows="5" name="message" id="message" placeholder="    type message here" required=""></textarea>
+          <input style="width: 50%" type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </div>
+        
+      </fieldset>
+      <div class="w3-padding">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+
+    <form class="w3-hide-large w3-hide-medium w3-text-white" style="border: none;" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xgebbary" method="post">
+      <fieldset style="border: none;" id="fs-frm-inputs">
+        <div class="w3-padding-small">
+          <label for="full-name">Full Name</label>
+        </div>
+        <div class="w3-padding-small">
+          <input style="width: 100%" type="text" name="name" id="full-name" placeholder="    First and Last" required="">
+        </div>
+        <br>
+
+        <div class="w3-padding-small">
+          <label for="email-address">Email Address</label>
+        </div>
+        <div class="w3-padding-small">
+          <input style="width: 100%" type="email" name="_replyto" id="email-address" placeholder="    email@domain.tld" required="">
+        </div>
+        <br>
+
+        <div class="w3-padding-small">
+          <label for="message">Message</label>
+        </div>
+        <div class="w3-padding-small">
+          <textarea style="width: 100%" rows="5" name="message" id="message" placeholder="    type message here" required=""></textarea>
+          <input style="width: 100%" type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </div>
+        
+      </fieldset>
+      <div class="w3-padding">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  
+
+
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+    <footer class="w3-hide-small w3-content w3-padding-64 w3-text-grey w3-xxlarge">
+      <a href="https://www.facebook.com/profile.php?id=100092872927031" target="_blank" rel="noopener noreferrer" class="w3-padding-small w3-button w3-hover-black">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      </a>
+      <a href="https://www.instagram.com/quinn.mcmath/" target="_blank" rel="noopener noreferrer" class="w3-padding-small w3-button w3-hover-black">
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/quinn-mcmath-206abb207/" target="_blank" rel="noopener noreferrer" class="w3-padding-small w3-button w3-hover-black">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCZJpV_eeV83LKiGR3cfdiOg" target="_blank" rel="noopener noreferrer" class="w3-padding-small w3-button w3-hover-black">
+        <i class="fa fa-youtube w3-hover-opacity"></i>
+      </a>
+      <a href="https://www.tiktok.com/@quinnmcmath" target="_blank" rel="noopener noreferrer" class="w3-padding-small w3-button w3-hover-black">
+        <i class="fa-brands fa-tiktok w3-hover-opacity"></i>
+      </a>
+      
+    <!-- End footer -->
+    </footer>
+
+    <footer class="w3-hide-large w3-hide-medium w3-content w3-padding-64 w3-text-grey w3-xxlarge" style="text-align: center;">
+      <a href="https://www.facebook.com/profile.php?id=100092872927031" target="_blank" rel="noopener noreferrer" class="w3-padding-small w3-button w3-hover-black">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      </a>
+      <a href="https://www.instagram.com/quinn.mcmath/" target="_blank" rel="noopener noreferrer" class="w3-padding-small w3-button w3-hover-black">
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/quinn-mcmath-206abb207/" target="_blank" rel="noopener noreferrer" class="w3-padding-small w3-button w3-hover-black">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCZJpV_eeV83LKiGR3cfdiOg" target="_blank" rel="noopener noreferrer"  class="w3-padding-small w3-button w3-hover-black">
+        <i class="fa fa-youtube w3-hover-opacity"></i>
+      </a>
+      <a href="https://www.tiktok.com/@quinnmcmath" target="_blank" rel="noopener noreferrer"  class="w3-padding-small w3-button w3-hover-black">
+        <i class="fa-brands fa-tiktok w3-hover-opacity"></i>
+      </a>
+      
+    <!-- End footer -->
+    </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+
+</body>
+</html>
